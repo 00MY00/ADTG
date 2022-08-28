@@ -1,0 +1,10 @@
+sles151:/etc/systemd/system/
+[Unit]
+Description=Permet de démarer Discorde aprè le système. crée par Kuroakashiro
+
+[Service]
+Type=simple
+ExecStart=/home/Start_Discord.sh
+
+[Install]
+WantedBy=multi-user.target
